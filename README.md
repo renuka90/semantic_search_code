@@ -1,4 +1,5 @@
 # Semantic search tool to find relevant (similar or related) terms.
+
 Description of each file:
 # Data: 
 The data used for this project was extracted from a Scopus. It covers the 14 different categories of articles within the domain of Business literature – HRM with the publication year from 2000 to 2019.  The total number of extracted data was 9820 and categories are shown as follows:
@@ -23,3 +24,4 @@ Each category of articles was pre-processed separately but saved as a document o
 # Lemmatization: 
 Pre-processed data were processed for lemmatization and the result was written line by line to the new file.
 Training_Model: It consists of a line-based iterator that reads the lemmatized file one line at a time instead of reading everything in memory at once. We set the threshold to remove a certain section of vocabulary. The lemmatized data was trained with the Word2Vec model and the result is saved in the data folder. Finally, the model was loaded in a “semantic-search” repository for the deployment of the application.
+
