@@ -23,5 +23,7 @@ Each category of articles was pre-processed separately but saved as a document o
 
 # Lemmatization: 
 Pre-processed data were processed for lemmatization and the result was written line by line to the new file.
-Training_Model: It consists of a line-based iterator that reads the lemmatized file one line at a time instead of reading everything in memory at once. We set the threshold to remove a certain section of vocabulary. The lemmatized data was trained with the Word2Vec model and the result is saved in the data folder. Finally, the model was loaded in a “semantic-search” repository for the deployment of the application.
+
+#Training_Model: 
+It consists of a line-based iterator that reads the lemmatized file one line at a time instead of reading everything in memory at once. We set the threshold to remove a certain section of vocabulary. The lemmatized data was trained with the Word2Vec model and the result is saved in the data folder. Finally, the model was loaded in a “semantic-search” repository for the deployment of the application.
 
